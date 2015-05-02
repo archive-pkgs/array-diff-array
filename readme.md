@@ -1,7 +1,6 @@
-# array-diff [![Build Status](https://travis-ci.org/drkraken/array-diff.svg?branch=master)](https://travis-ci.org/drkraken/array-diff)
+# array-diff
 
-> My sublime module
-
+> Simple difference between two arrays
 
 ## Install
 
@@ -15,31 +14,20 @@ $ npm install --save array-diff
 ```js
 var arrayDiff = require('array-diff');
 
-arrayDiff('unicorns');
-//=> unicorns & rainbows
+arrayDiff(['apple', 'orange'], ['apple', 'banana']);
+//=> ['orange', 'banana']
 ```
 
 
 ## API
 
-### arrayDiff(input, [options])
+### arrayDiff(input)
 
 #### input
 
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+*Required*
+Type: `array`
+Length: 2
 
 ## License
 
