@@ -1,9 +1,9 @@
 {
-  "name": "array-diff",
+  "name": "array-diff-array",
   "version": "1.0.0",
   "description": "Show arrays difference",
   "license": "MIT",
-  "repository": "drkraken/array-diff",
+  "repository": "drkraken/array-diff-array",
   "author": {
     "name": "drKraken",
     "email": "kuchuklehjs@gmail.com",

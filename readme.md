@@ -1,18 +1,18 @@
-# array-diff
+# array-diff-array
 
 > Simple difference between two arrays
 
 ## Install
 
 ```
-$ npm install --save array-diff
+$ npm install --save array-diff-array
 ```
 
 
 ## Usage
 
 ```js
-var arrayDiff = require('array-diff');
+var arrayDiff = require('array-diff-array');
 
 arrayDiff(['apple', 'orange'], ['apple', 'banana']);
 //=> ['orange', 'banana']
