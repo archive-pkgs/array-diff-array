@@ -1,0 +1,32 @@
+{
+  "name": "array-diff",
+  "version": "1.0.0",
+  "description": "Show arrays difference",
+  "license": "MIT",
+  "repository": "drkraken/array-diff",
+  "author": {
+    "name": "drKraken",
+    "email": "kuchuklehjs@gmail.com",
+    "url": "drkraken.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "diff",
+    "arrays",
+    "array",
+    "simple"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
