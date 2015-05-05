@@ -26,3 +26,7 @@ it('array with strings', function () {
     assert.deepEqual(arrayDiff(['apple', 'banana'], ['apple', 'orange']), ['banana', 'orange']);
 });
 
+it('array multi types', function () {
+    assert.deepEqual(arrayDiff(['apple', 23, true], ['apple', 'orange', false, 40]), [23, true, 'orange', false, 40]);
+});
+
