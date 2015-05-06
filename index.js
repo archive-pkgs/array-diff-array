@@ -1,9 +1,9 @@
 'use strict';
 module.exports = function (arr1, arr2) {
-	if (!Array.isArray(arr1) || !Array.isArray(arr2)) {
-		throw new TypeError('Expected an array');
-	}
-
+    if (!Array.isArray(arr1) || !Array.isArray(arr2)) {
+	throw new TypeError('Expected an array');
+    }
+	
     if (arguments.length > 2) {
         throw new RangeError('Must be 2 length');
     }
@@ -18,5 +18,5 @@ module.exports = function (arr1, arr2) {
         if (arr1.indexOf(arr2[i]) === -1) { diff.push(arr2[i]); }
     }
 
-	return diff;
+    return diff;
 };
